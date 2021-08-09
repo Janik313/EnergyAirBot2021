@@ -15,7 +15,7 @@ const desiredPrice = "tickets" // Set what you would like to win. (tickets|partn
 
 const questions = {
 "Was war das Erste, was Künstler Knackeboul nach seinem Auftritt 2014 Backstage gemacht hat?":"Mit seinem Mami ein kühles Bier getrunken",
-"In welchen Farben tritt das Energy Air Logo jährlich für das Sommerfinale auf?":"In welchen Farben tritt das Energy Air Logo jährlich für das Sommerfinale auf?",
+"In welchen Farben tritt das Energy Air Logo jährlich für das Sommerfinale auf?":"Blau und Weiss",
 "Wie kannst du deine Gewinnchancen bei Ticketverlosungen für Energy Events verdoppeln?":"Wenn man in Zürich, Basel oder Bern wohnt",
 "Wer war der Überraschungsact am Energy Air 2018?":"Lo & Leduc",
 "Wie heisst der offizielle Instagram-Account des Energy Air?":"@energyair_official",
