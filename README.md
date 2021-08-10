@@ -24,4 +24,5 @@ Klicke auf das Tampermonkey Menü und dann auf "Userscripte auf Updates prüfen"
 ![tampermonkey_update](https://user-images.githubusercontent.com/54064741/68547513-a7260380-03e2-11ea-9b45-2011389e021c.gif)
 ### Methode 2:
 Installiere das Skript erneut.
+
 ![update 2](https://user-images.githubusercontent.com/54064741/68547519-ae4d1180-03e2-11ea-813c-a2184485da76.gif)
