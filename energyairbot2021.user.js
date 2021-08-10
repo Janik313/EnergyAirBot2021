@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Energy Air 2021 Game Bot
 // @namespace    https://github.com/Janik313/EnergyAirBot2021/blob/master/energyairbot2021.user.js
-// @version      0.2
+// @version      0.3
 // @description  Win tickets for the Energy Air 2021 automatically
 // @author       Janik313: https://github.com/Janik313
 // @match        *game.energy.ch/*
@@ -52,6 +52,17 @@ const questions = {
 "Nach welchem Kriterium wählt das Energy Team die Acts für das Energy Air aus?":"Musiker*innen aus der aktuellen Energy Playlist",
 "In welchem Schweizer Kanton eröffnete Tally Weijl 1987 den ersten Store?":"Fribourg",
 "Welche zwei Energy Kultfiguren mischten das Energy Air 2017 richtig auf?":"Tinu &amp; Dänu",
+}
+
+$(document).ready(function() {
+  setInterval(function() {
+    cache_clear()
+  }, 30000);
+});
+
+function cache_clear() {
+  window.location.reload(true);
+  // window.location.reload(); use this if you do not remove cache
 }
 
 function titleIs (title, selector = 'h2') {
