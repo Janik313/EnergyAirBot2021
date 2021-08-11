@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Energy Air 2021 Game Bot
 // @namespace    https://github.com/Janik313/EnergyAirBot2021/blob/master/energyairbot2021.user.js
-// @version      0.5
+// @version      0.6
 // @description  Win tickets for the Energy Air 2021 automatically
 // @author       Janik313: https://github.com/Janik313
 // @match        *game.energy.ch/*
@@ -118,7 +118,10 @@ function makeAction () {
         console.clear()
         setTimeout(makeAction, 200)
     } else if (titleIs("Los geht's!", '.mobile-verification .jumbotron .title-verification')) {
-        console.log("titel gefunden")
+        $('button.btn.btn-primary.game-button.btn-lg').trigger('click')
+        setTimeout(makeAction, 200)
+    } else if (titleIs("Melde dich an", '.mobile-verification .jumbotron .title-verification')) {
+        console.log("titel")
         $('button.btn.btn-primary.game-button.btn-lg').trigger('click')
         setTimeout(makeAction, 200)
     } else {
