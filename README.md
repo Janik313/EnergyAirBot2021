@@ -5,7 +5,7 @@ Made by Janik313 https://github.com/Janik313
 
 ## Installation
 ### Step 1:
-Installiere Tampermonkey https://www.tampermonkey.net/
+Installiere Tampermonkey https://www.tampermonkey.net/ und Buster https://github.com/dessant/buster
 ![Download](https://user-images.githubusercontent.com/54064741/68319442-a0d01880-00be-11ea-84b8-d5f887d48a67.png)
 ### Step 2:
 Klicke auf energyairbot2021.user.js und danach auf raw.
